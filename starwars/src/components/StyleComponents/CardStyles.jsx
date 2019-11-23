@@ -6,7 +6,7 @@ const CardStyles = styled.section`
   margin: 0 auto;
 `;
 
-export const TextContainer= styled.div `
+export const TextContainer = styled.div`
     background: white;
     padding: 1rem;
     margin-bottom: 1rem;

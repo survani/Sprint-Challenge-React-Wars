@@ -6,13 +6,13 @@ const People = props => {
 
 
     return (
-            <TextContainer>
+        <TextContainer>
             <NameTextStyle>{props.eachPeople.name}</NameTextStyle>
             <NameTextStyle>{props.eachPeople.gender}</NameTextStyle>
             <NameTextStyle>{props.eachPeople.height}</NameTextStyle>
             <NameTextStyle>{props.eachPeople.mass}</NameTextStyle>
             <NameTextStyle>{props.eachPeople.birth_year}</NameTextStyle>
-            </TextContainer>   
+        </TextContainer>
     );
 }
 
