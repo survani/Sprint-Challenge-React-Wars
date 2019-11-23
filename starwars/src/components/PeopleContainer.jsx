@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
 import ListOfPeople from './ListOfPeople';
 
@@ -12,7 +12,7 @@ const PeopleContainer = () => {
             url: 'https://swapi.co/api/people/'
           })    
         .then(response => {
-            console.log("This is what we get back from the API:", response.data.results)
+            console.log('This is what we get back from the API:', response.data.results)
             setPeople(response.data.results)
             
         })
