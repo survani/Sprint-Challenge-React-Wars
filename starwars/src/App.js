@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import PeopleContainer from './components/PeopleContainer';
+import CardStyles from './components/StyleComponents/CardStyles';
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -10,9 +12,14 @@ const App = () => {
   // sync up with, if any.
 
   return (
-    <div className="App">
-      <h1 className="Header">React Wars</h1>
+    <React.Fragment>
+    <div className='App'>
+      <h1 className='Header'>React Wars</h1>
     </div>
+    <CardStyles>
+      <PeopleContainer />
+    </CardStyles>
+    </React.Fragment>
   );
 }
 
