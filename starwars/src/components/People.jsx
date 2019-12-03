@@ -1,7 +1,6 @@
 import React from 'react';
 import { TextContainer, NameTextStyle } from './StyleComponents/CardStyles'
 
-
 const People = props => {
 
 
